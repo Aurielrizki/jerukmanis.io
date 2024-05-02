@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+nav {
+    padding: 10px 30px;
+}
+.nav-logo {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.nav-menu-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-menu-center span {
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.nav-btn {
+    border-bottom-left-radius: 10px;
+    padding-left: 20px;
+    color: white;
+    font-weight: bold;
+    padding-right: 20px;
+    background-color: #59BE29;
+    border: none;
+    border-top-right-radius: 10px;
+}
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+.banner-judul-kecil {
+    font-size: 12px;
+}
+.banner-judul-besar {
+    font-size: 70px;
+    color: #59BE29;
+    text-align: center;
+}
+.banner-deskripsi {
+    text-align: justify;
+    width: 400px;
+}
+.banner-btn-produk {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #59BE29;
+    color: white;
+    font-weight: bold;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+}
+.banner-btn-produk:hover {
+    border: 2px solid #59BE29;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    width: 100%;
+    cursor: pointer;
+}
+.content-jenis {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+.content-jenis-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.content-jenis-item {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #F18D05;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+}
+.content-jenis-item:hover {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+    position:relative;
+    animation: shadow 0.5s infinite alternate;
+    top: 15px;
+    box-shadow: 0 20px 20px #F18D05;
+}
+.profile {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+.profile-card {
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
